@@ -7,4 +7,4 @@ def home():
     return "This is the home page!!"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=4000)
